@@ -1,0 +1,74 @@
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.hero-about-us
+.hero-image {
+  background-image: url(../../images/photos/hero-about-us.jpg);
+}
+.hero-details {
+  width: 50%;
+}
+.item-list li {
+  margin-left: 0;
+  padding: 2px 0;
+  list-style: circle;
+  font-weight: 400!important;
+  font-size: 16px;
+  font-family: inherit;
+  color: #666;
+}
+.pane {
+  padding: 10px 0;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.pane.one-half {
+  width: 47%;
+  vertical-align: top;
+}
+.contact-us {
+  width: 100%;
+  padding-top: 15px!important;
+  border-top: 1px solid #dfdfdf;
+}
+.contact-us
+.item-list {
+  padding-top: 10px;
+  padding-left: 0;
+}
+.contact-us
+.item-list li {
+  list-style: none;
+}
+@media (max-width: 1280px) {
+  .pane.one-half {
+    padding: 0 25px;
+  }
+  .pane {
+    padding: 0 25px;
+  }
+}
+@media (max-width: 769px) {
+  .hero {
+    height: auto;
+  }
+  .hero-details {
+    width: 100%;
+  }
+  .hero-image {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: block;
+    background-size: cover;
+    background-position: bottom center;
+  }
+  .pane.one-half {
+    width: 100%;
+  }
+
+}
