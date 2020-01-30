@@ -1,0 +1,12 @@
+body {
+  font-family: 'Overpass', sans-serif!important;
+}
+a,
+button,
+select,
+input {
+  font-family: inherit!important;
+}
+p {
+  font-weight: 300!important;
+}
