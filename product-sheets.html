@@ -967,7 +967,7 @@
              if(e.target.options.length === 2) {
                e.preventDefault(); // if there's only 1 sheet..
                e.stopPropagation(); // ..no need to pop up
-               url = 'https://www.dahle.com/assets/pdfs/Product Sheets/' + e.target.options[1].value;
+               url = 'https://www.dahle.website/assets/pdfs/Product Sheets/' + e.target.options[1].value;
                window.location = url;
              }
             }
@@ -975,7 +975,7 @@
           document.addEventListener('change', function (e) {
             change = e.target.value;
             if (~change.indexOf('.pdf')) {
-              url = 'https://www.dahle.com/assets/pdfs/Product Sheets/' + change;
+              url = 'https://www.dahle.website/assets/pdfs/Product Sheets/' + change;
               resetSelect();
               window.location = url;
             }
@@ -1430,10 +1430,10 @@
               productSheets.insertAdjacentHTML(
                 'afterbegin',
                  '<h2 style="padding-top:20px">Literature & Resources</h2>' +
-                 '<a href="https://www.dahle.com/assets/pdfs/brochures/Shredding-Brochure.pdf">' +
-                 '<div class="litSheets"><img src="https://www.dahle.com/assets/images/thumbs/brochures/shreddingS.jpg" alt="Shredding Brochure" height="129" border="0"><p>Shredding Brochure</p></div></a>' +
-                 '<a href="https://www.dahle.com/assets/pdfs/brochures/Pricing-Guide.pdf">' +
-                 '<div class="litSheets"><img src="https://www.dahle.com/assets/images/thumbs/brochures/pricingS.jpg" alt="Pricing Guide" height="129" border="0"><p>Pricing Guide</p></div></a>'
+                 '<a href="https://www.dahle.website/assets/pdfs/brochures/Shredding-Brochure.pdf">' +
+                 '<div class="litSheets"><img src="https://www.dahle.website/assets/images/thumbs/brochures/shreddingS.jpg" alt="Shredding Brochure" height="129" border="0"><p>Shredding Brochure</p></div></a>' +
+                 '<a href="https://www.dahle.website/assets/pdfs/brochures/Pricing-Guide.pdf">' +
+                 '<div class="litSheets"><img src="https://www.dahle.website/assets/images/thumbs/brochures/pricingS.jpg" alt="Pricing Guide" height="129" border="0"><p>Pricing Guide</p></div></a>'
               );
             }
           }
